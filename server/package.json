@@ -1,0 +1,30 @@
+{
+  "name": "quiz-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.json --no-daemon",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mofath/quiz-app__mern_redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mofath/quiz-app__mern_redux/issues"
+  },
+  "homepage": "https://github.com/mofath/quiz-app__mern_redux#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.12",
+    "pm2": "^4.5.6",
+    "react-router-dom": "^5.2.0"
+  }
+}
