@@ -1,0 +1,39 @@
+.Controls {
+  width: 45%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Controls > button {
+  width: 50px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--color-white);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.NextBtn {
+  background: var(--color-green-dark);
+}
+
+.QuitBtn {
+  background: var(--color-red);
+}
+
+.NextBtn:disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+@media (max-width: 800px) {
+  .Controls {
+    width: 80%;
+  }
+}

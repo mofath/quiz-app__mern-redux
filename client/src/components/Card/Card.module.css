@@ -1,0 +1,19 @@
+.Card {
+  width: 45%;
+  height: 50%;
+  background: var(--color-primary);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .Card {
+    width: 80%;
+    height: 35%;
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  --color-green-dark: #53880a;
+  --color-green-light: #b5d020;
+  --color-orange-dark: #f32906;
+  --color-orange-light: #f0a906;
+  --color-red: #bd2803;
+  --color-grey: #8f949b;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary: #411c6a;
+  --color-primary-dark: #281243;
+  --color-secondary: #eb8030;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
