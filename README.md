@@ -1,5 +1,5 @@
 <h1 align="center">
-🌐Simple Quiz App Using MERN stack.
+🌐 Simple Quiz App Using MERN stack.
 </h1>
 <p align="center">
 MongoDB, Expressjs, React/Redux, Nodejs
